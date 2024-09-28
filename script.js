@@ -22,7 +22,7 @@ document.addEventListener('mousemove', (event) => {
     // Calculate the distance between the mouse and the button
     const distance = Math.sqrt(Math.pow(mouseX - buttonX, 2) + Math.pow(mouseY - buttonY, 2));
 
-    if (distance < 100) {
+    if (distance < 250) {
         moveButton();
     }
 });
